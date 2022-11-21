@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1250px;
+    background-color: rgb(25, 10, 160);
+    margin: 15px auto; 
+    background-image: url('/random/eye.jpg');
+    background-blend-mode:multiply;   
+}
+
+h2{
+    padding: 1em ;
+}
+
+main{
+    height: 800px;
+    width: 625px;
+    float: left;
+    color: aliceblue;
+}
+
+aside{
+    width: 625px;
+    height: 800px;
+    float: right;
+    color: aliceblue;
+}
+
+#header ul{
+    list-style-type: none;
+    padding: 5em 0;
+    text-align: center;
+    margin-left: 300px;
+}
+
+#header ul li{
+    display: inline;
+    padding: 0 1.5em;
+}
+
+#header ul li a{
+    font-weight: bolder;
+    color: rgb(218, 245, 42);
+    font-size: xx-large;    
+}
+
+#header ul li a:hover{
+    color: rgb(19, 236, 3);
+}
+
+main h2, aside h2{
+    text-align: center;
+}
+
+main p, aside p{
+    text-align: center;
+}
+
+.image1{
+    justify-content: center;
+    display: flex;
+    text-anchor: start;    
+}
+
+.imageClass1{
+    width: 35%;
+}
+
+.image2{
+    justify-content: center;
+    display: flex;
+}
+
+.imageClass2{
+    width: 50%;
+}
+
+.image3{
+    display: flex;
+    justify-content: center;
+}
+
+.imageClass3{
+    width: 40%;
+}
+
+.image4{
+    display: flex;
+    justify-content: center;
+}
+
+.imageClass4{
+    width: 80%;
+}
+
+ul{
+    text-align: center;
+    display: inline-block;
+}
+
+.name{
+    text-align: center;
+    color: aliceblue;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+div.list{
+    text-align: center;
+}
+
+a:link {
+    color: rgb(188, 283, 8);
+    background-color: transparent;
+    text-decoration:chartreuse;
+}
+    
+a:visited {
+    color: rgb(188, 238, 8);
+    background-color: transparent;
+    text-decoration: none;
+}
+    
+a:hover {
+    color: rgb(31, 233, 51);
+    background-color: transparent;
+    text-decoration: underline;
+}
+    
+a:active {
+    color: rgb(54, 249, 223);
+    background-color: transparent;
+    text-decoration: underline;
+}
+.hospital,.rides{
+    margin-top: -45%;
+}

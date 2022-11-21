@@ -1,0 +1,44 @@
+body{
+    background-image: url('/Images/gsxr.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-top: 5px;
+}
+
+.novice{
+;
+    font-size: xx-large;
+    
+    
+}
+.advanced{
+    font-size: xx-large;
+    float: right;
+    
+}
+
+a:link {
+color: rgb(188, 283, 8);
+background-color: transparent;
+text-decoration:chartreuse;
+}
+
+a:visited {
+color: rgb(188, 238, 8);
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: rgb(31, 233, 51);
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active {
+color: rgb(54, 249, 223);
+background-color: transparent;
+text-decoration: underline;
+}
+   

@@ -1,0 +1,107 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: black;
+}
+
+main{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: small; 
+    color: aliceblue;
+}
+
+div{
+    color: rgb(247, 197, 34);
+    background-color: blue;
+    float: right;
+    text-justify: distribute-all-lines;
+}
+
+h1{
+    color: rgb(246, 243, 243);
+    background-color: rgba(146, 4, 223, 0.525);
+    float: right;
+    margin-right: 20%;
+    border-radius: 10%;
+}
+
+footer{
+    color: rgb(145, 156, 166, 0);
+    clear:right
+}
+
+a:link{
+    color: rgbA(188, 283, 8);
+    background-color: transparent;
+    text-decoration:rgb(220, 250, 27);
+}
+    
+a:visited{
+    color: rgb(192, 238, 25);
+    background-color: transparent;
+    text-decoration: none;
+}
+    
+a:hover{
+    color: rgb(231, 8, 27);
+    background-color: transparent;
+    text-decoration: underline;
+}
+    
+a:active{
+    color: rgb(228, 244, 16);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+img{
+    width: 25%;
+    border-radius: 10%;
+    display: flex;
+    margin-top: 2%;    
+}
+
+aside{
+    float: right;
+    color: rgb(245, 241, 241);
+    background-color: rgba(146, 4, 223, 0.525);
+    border-radius: 5%;
+    font-weight: bold;
+    clear: both;    
+    font-size: large;
+    margin-left: 0%;
+    margin-top:0%;
+}
+
+h1.heading{
+    margin-right: 40%;
+    background-color: transparent;
+}
+
+h4{
+    color: rgb(143, 11, 11);
+    background-color: rgba(247, 197, 34, .5);    
+}
+
+img.cheezy{
+    width: 20%;
+}
+
+.pfeifer{
+    width: 20%;
+}
+
+.main{
+    margin-top: 5%;
+    background-color: transparent;
+    margin-bottom: 5%;
+}
+.welcome{
+    margin-right: 40%;
+}
+ol{
+    margin-top: 10%;
+}
